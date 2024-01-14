@@ -30,7 +30,9 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
+                <a href={link.link}>
                   {link.name}
+                </a>
                 </li>
               ))}
             </ul>
